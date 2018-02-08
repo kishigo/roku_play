@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<component name="HelloWorld" extends="Scene">
+<component name="HelloWorld" extends="Scene" initialFocus = "exampleButtonGroup" >
+	<script type="text/brightscript" uri="pkg:/components/helloworld.brs"/>
 	<children>
-      <Label id="myLabel"
-      	text="Helloooo000 Again!!"
-      	width="1280"
-      	height="720"
-      	horizAlign="center"
-      	vertAlign="center"
-      	/>
+      	<Label id="myLabel"
+	      	text="Helloooo000 Again!!"
+	      	width="1280"
+	      	height="720"
+	      	horizAlign="center"
+	      	vertAlign="center"
+	      	/>
+		<ButtonGroup id = "exampleButtonGroup" />
     </children>
 <!-- BrightScript Portion -->
-<script type="text/brightscript" uri="pkg:/components/helloworld.brs"/>
 </component>
